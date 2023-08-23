@@ -1,8 +1,9 @@
-# React + Vite
+# FORMS in react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the exercise we saw in class on how to use forms in react.
 
-Currently, two official plugins are available:
+Remember to install the dependencies with `npm install` and run the project with `npm run dev`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The `onChange` event is used to update the state of the component with the value of the input.
+
+We use the `onClick` event to submit the form and call the `handleSubmit` function. And we use the `e.preventDefault()` to avoid the default behaviour of the form, which is to refresh the page.
